@@ -1,0 +1,29 @@
+{
+  "name": "@guseyn/cutie-is",
+  "version": "1.0.0",
+  "description": "Cutie extension for checking types in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test-all-types"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guseyn/cutie-is.git"
+  },
+  "keywords": [
+    "cutie",
+    "is",
+    "type",
+    "types"
+  ],
+  "dependencies": {
+    "@guseyn/cutie": "1.3.7",
+    "@guseyn/cutie-assert": "1.0.9"
+  },
+  "author": "guseyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Guseyn/cutie-is/issues"
+  },
+  "homepage": "https://github.com/Guseyn/cutie-is#readme"
+}
