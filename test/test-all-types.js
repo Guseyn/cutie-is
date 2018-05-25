@@ -2,6 +2,7 @@ const {
   Assertion
 } = require('@guseyn/cutie-assert');
 const {
+  Is,
   IsArray,
   IsBoolean,
   IsNull,
@@ -43,4 +44,14 @@ new Assertion(
 
 new Assertion(
   new IsUndefined()
+).call();
+
+new Is(
+  new Date(), Date
+).call();
+
+class Test {}
+
+new Is(
+  new Test(), Test
 ).call();

@@ -1,5 +1,6 @@
 module.exports = {
 
+  Is: require('./src/Is'),
   IsArray: require('./src/IsArray'),
   IsBoolean: require('./src/IsBoolean'),
   IsNull: require('./src/IsNull'),
