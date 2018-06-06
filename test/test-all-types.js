@@ -5,6 +5,7 @@ const {
   Is,
   IsArray,
   IsBoolean,
+  IsDate,
   IsNull,
   IsNumber,
   IsObject,
@@ -48,6 +49,10 @@ new Assertion(
 
 new Is(
   new Date(), Date
+).call();
+
+new IsDate(
+  new Date()
 ).call();
 
 class Test {}
