@@ -1,6 +1,6 @@
 const {
   Assertion
-} = require('@guseyn/cutie-assert');
+} = require('@cuties/assert');
 const {
   Is,
   IsArray,
