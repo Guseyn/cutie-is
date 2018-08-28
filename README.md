@@ -1,7 +1,4 @@
 # cutie-is
-Cutie extension for checking types in JavaScript.
-
-# cutie-assert
 
 [![NPM Version][npm-image]][npm-url]
 
