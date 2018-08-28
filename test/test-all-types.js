@@ -1,6 +1,4 @@
-const {
-  Assertion
-} = require('@cuties/assert');
+const Assertion = require('./../deps/Assertion');
 const {
   Is,
   IsArray,

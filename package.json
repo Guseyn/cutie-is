@@ -1,6 +1,6 @@
 {
-  "name": "@guseyn/cutie-is",
-  "version": "1.0.5",
+  "name": "@cuties/is",
+  "version": "1.0.6",
   "description": "Cutie extension for checking types in JavaScript.",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,7 @@
     "types"
   ],
   "dependencies": {
-    "@cuties/cutie": "1.4.3",
-    "@cuties/assert": "1.1.2"
+    "@cuties/cutie": "1.4.3"
   },
   "author": "guseyn",
   "license": "MIT",
