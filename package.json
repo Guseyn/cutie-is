@@ -17,7 +17,7 @@
     "types"
   ],
   "dependencies": {
-    "@cuties/cutie": "1.4.3"
+    "@cuties/cutie": "1.4.4"
   },
   "author": "guseyn",
   "license": "MIT",
