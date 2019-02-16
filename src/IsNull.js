@@ -1,19 +1,17 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 class IsNull extends AsyncObject {
-
-  constructor(value) {
-    super(value);
+  constructor (value) {
+    super(value)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (value) => {
-      return value === null;
+      return value === null
     }
   }
-
 }
 
-module.exports = IsNull;
+module.exports = IsNull

@@ -1,4 +1,4 @@
-const Assertion = require('./../deps/Assertion');
+const Assertion = require('./../assert/Assertion')
 const {
   Is,
   IsArray,
@@ -11,50 +11,60 @@ const {
   IsString,
   IsSymbol,
   IsUndefined
-} = require('./../index');
+} = require('./../index')
 
 new Assertion(
   new IsArray([1, 2, 3])
-).call();
+).call()
 
 new Assertion(
   new IsBoolean(false)
-).call();
+).call()
 
 new Assertion(
   new IsNull(null)
-).call();
+).call()
+
+new Assertion(
+  new IsNumber(123)
+).call()
+
+new Assertion(
+  new IsSymbol(
+    Symbol('s')
+  )
+).call()
 
 new Assertion(
   new IsObject(null)
-).call();
+).call()
 
 new Assertion(
   new IsObject({})
-).call();
+).call()
 
 new Assertion(
   new IsRealObject({})
-).call();
+).call()
 
 new Assertion(
-  new IsString("123")
-).call();
+  new IsString('123')
+).call()
 
 new Assertion(
   new IsUndefined()
-).call();
+).call()
 
 new Is(
   new Date(), Date
-).call();
+).call()
 
 new IsDate(
   new Date()
-).call();
+).call()
 
 class Test {}
 
 new Is(
   new Test(), Test
-).call();
+).call()

@@ -1,19 +1,17 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 class IsNumber extends AsyncObject {
-
-  constructor(value) {
-    super(value);
+  constructor (value) {
+    super(value)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (value) => {
-      return typeof value === 'number';
+      return typeof value === 'number'
     }
   }
-
 }
 
-module.exports = IsNumber;
+module.exports = IsNumber

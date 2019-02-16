@@ -1,19 +1,17 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 class IsDate extends AsyncObject {
-
-  constructor(value) {
-    super(value);
+  constructor (value) {
+    super(value)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (value) => {
-      return value instanceof Date;
+      return value instanceof Date
     }
   }
-
 }
 
-module.exports = IsDate;
+module.exports = IsDate

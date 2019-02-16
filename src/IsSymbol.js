@@ -1,19 +1,17 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 class IsSymbol extends AsyncObject {
-
-  constructor(value) {
-    super(value);
+  constructor (value) {
+    super(value)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (value) => {
-      return typeof value === 'symbol';
+      return typeof value === 'symbol'
     }
   }
-
 }
 
-module.exports = IsSymbol;
+module.exports = IsSymbol

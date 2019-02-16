@@ -1,19 +1,17 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 class IsRealObject extends AsyncObject {
-
-  constructor(value) {
-    super(value);
+  constructor (value) {
+    super(value)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (value) => {
-      return typeof value === 'object' && value !== null;
+      return typeof value === 'object' && value !== null
     }
   }
-
 }
 
-module.exports = IsRealObject;
+module.exports = IsRealObject
