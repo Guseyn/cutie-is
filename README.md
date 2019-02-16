@@ -1,6 +1,6 @@
 # cutie-is
 
-[![NPM Version](https://img.shields.io/npm/v/@cuties/cutie-is.svg)](https://npmjs.org/package/@cuties/cutie-is)
+[![NPM Version](https://img.shields.io/npm/v/@cuties/is.svg)](https://npmjs.org/package/@cuties/is)
 [![Build Status](https://travis-ci.org/Guseyn/cutie-is.svg?branch=master)](https://travis-ci.org/Guseyn/cutie-is)
 [![codecov](https://codecov.io/gh/Guseyn/cutie-is/branch/master/graph/badge.svg)](https://codecov.io/gh/Guseyn/cutie-is)
 
