@@ -1,6 +1,6 @@
 {
   "name": "@cuties/is",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Cutie extension for checking types in JavaScript.",
   "main": "index.js",
   "scripts": {
