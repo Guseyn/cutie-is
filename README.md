@@ -14,14 +14,6 @@ You can find examples of using this library in the [test directory](https://gith
 
 `npm install @cuties/is`
 
-# Usage
-
-```js
-const {
-  // Here needed async objects from the table below
-} = require('@cuties/is');
-```
-
 ## Run test
 
 `npm test`
@@ -29,6 +21,14 @@ const {
 ## Run build
 
 `npm run build`
+
+## Usage
+
+```js
+const {
+  // Here needed async objects from the table below
+} = require('@cuties/is');
+```
 
 | Async Object  | Async/sync call | Parameters | Representation result |
 | ------------- | ----------------| ---------- | --------------------- |
