@@ -1,12 +1,18 @@
 # cutie-is
 
-[![NPM Version][npm-image]][npm-url]
+[![NPM Version](https://img.shields.io/npm/v/@cuties/cutie-is.svg)](https://npmjs.org/package/@cuties/cutie-is)
+[![Build Status](https://travis-ci.org/Guseyn/cutie-is.svg?branch=master)](https://travis-ci.org/Guseyn/cutie-is)
+[![codecov](https://codecov.io/gh/Guseyn/cutie-is/branch/master/graph/badge.svg)](https://codecov.io/gh/Guseyn/cutie-is)
 
 [Cutie](https://github.com/Guseyn/cutie) extension for checking types in JavaScript. It's based on the [Async Tree Pattern](https://github.com/Guseyn/async-tree-patern/blob/master/Async_Tree_Patern.pdf).
 
-# Examples
+## Examples
 
 You can find examples of using this library in the [test directory](https://github.com/Guseyn/cutie-is/tree/master/test).
+
+## Install
+
+`npm install @cuties/is`
 
 # Usage
 
@@ -15,6 +21,14 @@ const {
   // Here needed async objects from the table below
 } = require('@cuties/is');
 ```
+
+## Run test
+
+`npm test`
+
+## Run build
+
+`npm run build`
 
 | Async Object  | Async/sync call | Parameters | Representation result |
 | ------------- | ----------------| ---------- | --------------------- |
@@ -29,7 +43,3 @@ const {
 | `IsString` | `typeof value === 'string'` | `value` | `boolean` |
 | `IsSymbol` | `typeof value === 'symbol'` | `value` | `boolean` |
 | `IsUndefined` | `typeof value === 'undefined'` | `value` | `boolean` |
-
-[npm-image]: https://img.shields.io/npm/v/@cuties/is.svg
-[npm-url]: https://npmjs.org/package/@cuties/is
-
