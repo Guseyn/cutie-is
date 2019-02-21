@@ -4,6 +4,7 @@ const {
   IsArray,
   IsBoolean,
   IsDate,
+  IsFunction,
   IsNull,
   IsNumber,
   IsObject,
@@ -55,16 +56,26 @@ new Assertion(
   new IsUndefined()
 ).call()
 
-new Is(
-  new Date(), Date
+new Assertion(
+  new Is(
+    new Date(), Date
+  )
 ).call()
 
-new IsDate(
-  new Date()
+new Assertion(
+  new IsDate(
+    new Date()
+  )
+).call()
+
+new Assertion(
+  new IsFunction(() => {})
 ).call()
 
 class Test {}
 
-new Is(
-  new Test(), Test
+new Assertion(
+  new Is(
+    new Test(), Test
+  )
 ).call()
