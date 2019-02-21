@@ -10,7 +10,7 @@ class Assertion extends AsyncObject {
     super(value, message);
   }
 
-  definedSyncCall() {
+  syncCall() {
     return (value, message) => {
       assert(value, message);
       return value;

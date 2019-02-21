@@ -7,7 +7,7 @@ class IsNull extends AsyncObject {
     super(value)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (value) => {
       return value === null
     }

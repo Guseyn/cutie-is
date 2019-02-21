@@ -7,7 +7,7 @@ class IsRealObject extends AsyncObject {
     super(value)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (value) => {
       return typeof value === 'object' && value !== null
     }

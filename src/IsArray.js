@@ -7,7 +7,7 @@ class IsArray extends AsyncObject {
     super(value)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (value) => {
       return Array.isArray(value)
     }
