@@ -7,7 +7,7 @@ class Is extends AsyncObject {
     super(value, clazz)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (value, clazz) => {
       return value instanceof clazz
     }

@@ -7,7 +7,7 @@ class IsDate extends AsyncObject {
     super(value)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (value) => {
       return value instanceof Date
     }

@@ -7,7 +7,7 @@ class IsObject extends AsyncObject {
     super(value)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (value) => {
       return typeof value === 'object'
     }

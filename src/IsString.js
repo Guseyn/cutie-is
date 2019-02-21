@@ -7,7 +7,7 @@ class IsString extends AsyncObject {
     super(value)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (value) => {
       return typeof value === 'string'
     }
