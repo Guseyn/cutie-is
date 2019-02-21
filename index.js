@@ -4,6 +4,7 @@ module.exports = {
   IsArray: require('./src/IsArray'),
   IsBoolean: require('./src/IsBoolean'),
   IsDate: require('./src/IsDate'),
+  IsFunction: require('./src/IsFunction'),
   IsNull: require('./src/IsNull'),
   IsNumber: require('./src/IsNumber'),
   IsObject: require('./src/IsObject'),

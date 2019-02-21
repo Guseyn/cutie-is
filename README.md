@@ -35,7 +35,8 @@ const {
 | `Is` | `value instanceof clazz` | `value, clazz` | `boolean` |
 | `IsArray` | `Array.isArray` | `value` | `boolean` |
 | `IsBoolean` | `typeof value === 'boolean'` | `value` | `boolean` |
-| `IsDate` | `typeof value instanceof Date` | `value` | `boolean` |
+| `IsDate` | `value instanceof Date` | `value` | `boolean` |
+| `IsFunction` | `typeof value === 'function'` | `value` | `boolean` |
 | `IsNull` | `typeof value === null` | `value` | `boolean` |
 | `IsNumber` | `typeof value === 'number'` | `value` | `boolean` |
 | `IsObject` | `typeof value === 'object'` | `value` | `boolean` |
