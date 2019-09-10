@@ -1,7 +1,11 @@
+'use strict'
+
+const { AsyncObject } = require('@cuties/cutie')
 const Assertion = require('./../assert/Assertion')
 const {
   Is,
   IsArray,
+  IsAsyncObject,
   IsBoolean,
   IsDate,
   IsFunction,
@@ -77,5 +81,11 @@ class Test {}
 new Assertion(
   new Is(
     new Test(), Test
+  )
+).call()
+
+new Assertion(
+  new IsAsyncObject(
+    new AsyncObject()
   )
 ).call()
